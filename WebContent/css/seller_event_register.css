@@ -1,0 +1,140 @@
+@charset "EUC-KR";
+.layout-page-header {
+    text-align: center;
+    padding-bottom: 40px;
+    /* padding-top: 60px; */
+}
+	.layout-page-header h2 {
+	    font-weight: 700;
+	    font-size: 30px !important;
+	    color: #fff;
+	    display: block;
+	    padding: 10px 0 14px 0;
+	}
+#content {
+	width: 65%;
+	padding-bottom: 30px;
+	margin: 2.5% auto;
+	background: rgba(255, 255, 255, .7);
+}
+
+#key {
+	height: 100px;
+}
+
+#key h2 {
+	padding: 30px;
+	color: black;
+}
+
+table {
+	clear: none;
+	border: 2px solid white;
+	color: black;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+td {
+	line-height: 38px;
+}
+
+input, select {
+	height: 20px;
+}
+
+#no {
+	width: 34%;
+	height: 28px;
+	border: none;
+	background: #f1f1f1;
+	float: right;
+	margin-right: 55%;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#name {
+	width: 335px;
+	height: 25px;
+	margin-left: 2.5%;
+}
+
+#categ {
+	width: 34%;
+	height: 28px;
+	border: none;
+	background: #f1f1f1;
+	float: right;
+	margin-right: 55%;
+	margin-top: 5px;
+	text-align: center;
+}
+
+#date {
+	text-align: center;
+	text-size: 1em;
+	width: 160px;
+	margin-left: 150px;
+	position: relative;
+	bottom: 40px;
+}
+
+#plusDate{
+	text-align: center;
+	text-size: 1em;
+	width: 50px;
+	margin-left: 200px;
+	margin-right: 200px;
+	position: relative;
+	bottom: 40px;
+}
+
+#btn1 {
+	width: 60px;
+	height: 24px;
+	position: relative;
+	bottom: 38px;
+}
+
+.btn2 {
+	width: 60px;
+	height: 24px;
+	position: relative;
+	top: 1.6px;
+}
+
+#time1 {
+	margin-left: 10px;
+	position: relative;
+}
+
+#spot {
+	width: 70%;
+	height: 25px;
+	border: none;
+	background: #f1f1f1;
+	float: right;
+	margin-right: 60px;
+	margin-top: -32px;
+	text-align: center;
+}
+
+#location {
+	width: 500px;
+	height: 25px;
+}
+
+#file {
+	width: 80%;
+	height: 40px;
+}
+
+#sub {
+	width: 100px;
+	height: 30px;
+	margin-top: 50px;
+	position: relative;
+	bottom: 70px;
+	left: 800px;
+}

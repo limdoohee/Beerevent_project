@@ -1,0 +1,83 @@
+@charset "EUC-KR";
+
+#main {
+	background-color: rgba(0, 0, 0, .1);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+#key {
+	height: 250px;
+}
+
+#key h2 {
+	padding: 100px;
+	color: #fff;
+}
+
+._box1 {
+	width: 570px;
+	height: 300px;
+	text-align: center;
+	border: 2px solid white;
+	color: white;
+	position: relative;
+	top: 0px;
+	left: 300px;
+	display: inline-block;
+}
+
+._box2 {
+	width: 570px;
+	height: 300px;
+	text-align: center;
+	margin: 0 auto;
+	border: 2px solid white;
+	color: white;
+	position: relative;
+	top: 0px;
+	left: 400px;
+	display: inline-block;
+}
+
+._box3 {
+	width: 570px;
+	height: 300px;
+	text-align: center;
+	border: 2px solid white;
+	color: white;
+	flow: left;
+	position: relative;
+	top: 340px;
+	right: 1120px;
+	display: inline-block;
+}
+
+._box4 {
+	width: 570px;
+	height: 300px;
+	text-align: center;
+	border: 2px solid white;
+	color: white;
+	flow: left;
+	position: relative;
+	top: 38px;
+	left: 650px;
+	display: inline-block;
+}
+
+._box5 {
+	width: 570px;
+	height: 300px;
+	text-align: center;
+	border: 2px solid white;
+	color: white;
+	flow: left;
+	position: relative;
+	top: 38px;
+	left: 680px;
+	display: inline-block;
+}

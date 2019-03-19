@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+#content{
+	width:65%;
+    padding-bottom:100px;
+    margin: 2.5% auto;
+    background: rgba(255,255,255,.8);
+    min-width:1024px;
+}
+#key {
+	text-align: center;
+}	
+
+#key h2 {
+	padding: 65px 0;
+	font-size:30px;
+	color : #382214;
+	text-align:center;
+}
+/* ----- 테이블 ----- */
+table {
+	margin:0 auto;
+	width:90%;
+	text-align:center;
+	border-collapse: collapse;
+}
+th, td {
+	padding:12px 0;
+}
+td{
+	border-bottom:1px solid #aaa;
+}
+tr:nth-child(1) {
+	border-bottom:1px solid #6b6b6b;
+	border-top:1px solid #6b6b6b;
+}
+td:last-child{
+	width:225px;
+}
+#delete-sel,
+#store-detail,
+.approval-temp,
+#delete-temp,
+button{
+	width:80px;
+	background:#382214;
+	padding: 6px 0px;
+    margin: 0 3px;
+	color:#fff;
+	border:none;
+	font-size:13px;
+}
+#store-detail a{
+	color: #fff;
+    padding: 5px 15px;
+}
+#store_detail {
+	font-weight:700;
+}
+#store_detail:hover{
+	text-decoration: underline;
+}
+#delete-sel:hover, 
+#store-detail > a:hover,
+.approval-temp:hover,
+#delete-temp:hover,
+button:hover {
+	color:gold;
+	cursor:pointer;
+}
+/* -----탭 ----- */
+ul.tabs{
+	text-align: center;
+}
+ul.tabs li {
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 15px 0;
+	cursor: pointer;
+	width:49.78%;
+}
+ul.tabs li.current {
+	background:#ededed;
+	width:49.8%;
+}
+
+.tab-content {
+	display: none;
+	background-color:#ededed;
+	padding: 15px;
+}
+
+.tab-content.current {
+	display: block;
+	padding: 35px 0;
+}

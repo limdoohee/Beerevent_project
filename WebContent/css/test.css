@@ -1,0 +1,34 @@
+@charset "EUC-KR";
+
+
+.fixed{
+    position:fixed;
+    top: 0 ;
+}
+html, body{
+    margin:0;
+    padding:0;
+}
+#topheader{
+    height:100px;
+    background-color : #000;
+}
+header{
+    background-color:white;
+    height:100px;
+    width:100%;
+}
+header ul{
+    list-style-type:none;
+    float:right;
+}
+ul li{
+    display:inline-block;
+    margin:20px;
+}
+
+#body{
+    background-color:pink;
+    width:100%;
+    height:2000px;
+}

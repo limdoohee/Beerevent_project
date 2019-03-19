@@ -1,0 +1,90 @@
+@charset "EUC-KR";
+
+.layout-page-header {
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 60px;
+}
+	.layout-page-header h2 {
+	    font-weight: 700;
+	    font-size: 30px !important;
+	    color: #fff;
+	    display: block;
+	    padding: 10px 0 14px 0;
+	}
+
+form {
+	width: 900px;
+    margin: 0 auto;
+}
+#content .Write{
+    background: rgba(255,255,255,.8);
+    margin:0 auto;
+    padding: 7px 0 25px;
+}
+#content .Write table{
+	margin:0 auto;
+}
+#content .Write td.Cols1{
+	width: 149px;
+    padding: 30px 0 0 29px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #514859;
+    line-height: 20px;
+    vertical-align: top;
+}
+#content .Write td.Cols2{
+	padding: 20px 0 0 0;
+    border-top: 0 none;
+    font-size: 12px;
+    vertical-align: top;
+    text-align: left;
+}
+#content .Write  input[type="text"] {
+	width: 300px;
+    height: 40px;
+    padding: 0 9px;
+    border: 1px solid #dddfe1;
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+#content .Write #mobile1,
+#content .Write #mobile2,
+#content .Write #mobile3 {
+	width:79px;
+}
+#content .Write #smg,
+#content .Write #list {
+	width:130px;
+}
+.btn_area{
+	text-align:center;
+	padding-bottom: 50px;
+}
+.btn_area input{
+    width: 200px;
+    height: 48px;
+    margin: 40px 5px 0;
+    border: 0 none;
+    font-size: 14px;
+    color: #fff;
+    line-height: 44px;
+    letter-spacing: -0.3px;
+}
+.btn_area input[type=submit],
+.btn_area input[type=reset],
+.btn_area input[type=button]
+{
+	background:#382214;
+	 border: 1px solid #452f22;
+}
+.btn_area input[type=submit]:hover,
+.btn_area input[type=reset]:hover,
+.btn_area input[type=button]:hover
+{
+	color:gold;
+	cursor:pointer;
+	font-weight:700;
+}

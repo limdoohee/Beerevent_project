@@ -1,0 +1,166 @@
+@charset "utf-8";
+body{
+	color:#fff;
+}
+#main{
+	background: url(../img/bg_company.jpg) no-repeat top center;
+    background-color: #121212;
+}
+.story_row1{
+	padding-top: 80px;
+	text-align:center;
+}
+.story_row1 .story_tit{
+    font-size: 18px;
+    text-align: center;
+}
+.story_row1 >  .fade-in-out{
+	opacity:0;
+	transform:translateY(50px);
+	transition:all 1.5s ease-in-out;
+	-webkit-transition:all 1.5s ease-in-out;
+}
+.story_row1 > .scroll{
+	opacity: 1;
+    transform: translateY(0px);
+}
+.story_row1 h1 {
+    font-size: 65px;
+    font-weight: 800;
+    line-height: 110%;
+    margin-top:160px;
+}
+.story_row1 h2 {
+    font-size: 24px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    padding-bottom:20px;
+    color: rgba(255,255,255,0.5);
+}
+.story_row1 p:before {
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 70px auto;
+    background: #fff;
+    content: '';
+}
+.story_row1 p span{
+	color:gold;
+}
+.story_row2 {
+	margin:0 auto;
+	margin-top: 200px;
+	display:table;
+	width:1240px;
+}
+.story_row2 h1{
+	margin:45px auto;
+}
+.img_section{
+	width:550px;
+	height:384px;
+	position: relative;
+	float: left;
+}
+.bg{
+	background: url(../img/craft_beer.jpg) no-repeat top center;
+	width:500px;
+    height: 334px;
+    position: absolute;
+    right: 0;
+    z-index: 9;
+    background-size: cover;
+}
+.color_box{
+	background: burlywood;
+    width: 500px;
+    height: 334px;
+    position: absolute;
+    bottom: 0;
+    z-index: 1;
+}
+.story_row2 .txt_box{
+	font-size:14px;
+	position:absolute;
+	right:0;
+	bottom:0;
+	width:50%;
+}
+.story_row2 .txt_box p {
+	opacity: 0;
+    transform: translateX(50px);
+    transition: all 1.5s ease-in-out;
+    -webkit-transition: all 1.5s ease-in-out;
+}
+.story_row2 .txt_box > .scroll{
+	opacity: 1;
+    transform: translateX(0px);
+}
+.story_row2 .txt_box p::before{
+	display: block;
+    width: 40px;
+    height: 1px;
+    margin: 35px 0;
+    background: gold;
+	content:'';
+}
+.story_row3 {
+	width:100%;
+	margin-top:200px;
+}
+.story_row3 h1{
+	text-align:center;
+	margin-bottom: 50px;
+}
+.story_row3 .story_box{
+	width:100%;
+}
+.story_row3 .story_box .box_container{
+	width:1240px;
+	margin:0 auto;
+	padding:40px 0;
+	border-bottom:1px solid #ccc;
+}
+.story_row3 .story_box:hover{
+	background:#000;
+}
+.story_row3 .box_container:hover {
+	cursor:pointer;
+}
+.descript{
+	border-radius:50%;
+	width:250px;
+	height:250px;
+	overflow:hidden;
+	display: inline-block;
+}
+.story_row3 .story_box .box_container .txt_box{
+	color: #ccc;
+    display: inline-block;
+    width: 900px;
+    position: absolute;
+    right: 25px;
+    bottom: 30px;
+  	text-align: justify;
+  	font-size: 14px;
+}
+.story_row3 .story_box .box_container .txt_box .main_tit2{
+	font-size:30px;
+	color:gold;
+}
+.story_row3 .story_box .box_container .txt_box .main_tit2 span{
+	font-size:15px;
+	color:#fff;
+	margin-left: 6px;
+}
+.story_row3 .story_box .box_container .txt_box .flavor{
+	color: #7f5425;
+    font-size: 25px;
+    margin-bottom: 60px;
+}
+.story_row3 .story_box .box_container .txt_box .flavor span{
+	color: #fff;
+    font-size: 15px;
+    margin-left: 10px;
+}

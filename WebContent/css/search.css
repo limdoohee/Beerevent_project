@@ -1,0 +1,68 @@
+@charset "utf-8";
+body {
+	color : #fff;
+	margin : 0;
+}
+#key {
+	text-align: center;
+	padding:125px 0 70px;
+}	
+#key h1 {
+	padding: 20px 0;
+	color : #fff;
+}
+#formdiv{
+	width:100%;
+}
+#search_form{
+	margin : auto;
+	width : 960px;
+}
+#search_form #event_loca{
+	padding: 15px 0;
+}
+#search_form #spot {
+	width: 100%;
+    height: 70px;
+}
+input, select {
+	background-color: transparent;
+	border : 2px solid #fff;
+	color : #fff;
+	width: 267px;
+    padding: 23px 0;
+    text-align-last: center;
+}
+select{
+	padding: 22px 0;
+}
+select option {
+	color : #000;
+}
+#event_detail_search ul li {
+	display: inline-block;
+	margin-top: 30px;
+	margin-right:5px;
+}
+#event_detail_search ul li:last-child{
+	margin-right:0px;
+}
+#event_detail_search ul li p {
+	padding: 15px 0;
+}
+#event_detail_search ul li button {
+    background: gold;
+    border: none;
+    width: 123px;
+    padding: 24px 0px;
+    font-size: 15px;
+    font-weight: 700;
+    color: #382214;
+}
+/* 달력표시 지우기  */
+.ui-datepicker-trigger{
+	display:none;
+}
+select:hover, input:hover, button:hover{
+	cursor:pointer;
+}

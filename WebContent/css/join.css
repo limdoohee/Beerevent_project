@@ -1,0 +1,181 @@
+.page_location {
+    width: 900px;
+    margin: 0 auto;
+    padding:2% 0 3%;
+    font-size: 12px;
+    color: gold;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: -0.6px;
+}
+.mypage_modify{
+	padding-top:40px;
+}
+.page_location a{
+	text-decoration:none;
+	letter-spacing: -1px;
+    font-weight: 700;
+    color:#ccc;
+}
+.layout-page-header {
+    text-align: center;
+    padding-bottom: 40px;
+    /* padding-top: 60px; */
+}
+	.layout-page-header h2 {
+	    font-weight: 700;
+	    font-size: 30px !important;
+	    color: #fff;
+	    display: block;
+	    padding: 10px 0 14px 0;
+	}
+form {
+	width: 900px;
+    margin: 0 auto;
+}
+#content .joinWrite{
+    background: rgba(255,255,255,.8);
+    margin:0 auto;
+    padding: 7px 0 25px;
+}
+#content .joinWrite table{
+	margin:0 auto;
+}
+#content .joinWrite td.memberCols1{
+	width: 149px;
+    padding: 30px 0 0 29px;
+    font-weight: 700;
+    font-size: 14px;
+    color: #514859;
+    line-height: 20px;
+    vertical-align: top;
+}
+#content .joinWrite td.memberCols2{
+	padding: 20px 0 0 0;
+    border-top: 0 none;
+    font-size: 12px;
+    vertical-align: top;
+    text-align: left;
+}
+#content .joinWrite  input[type="text"], 
+#content .joinWrite  input[type="password"]{
+	width: 300px;
+    height: 40px;
+    padding: 0 9px;
+    border: 1px solid #dddfe1;
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+#content .joinWrite #idcheck ,
+#mobilecheck, #cert_button, 
+#content .joinWrite td.memberCols2 select{
+	width: 150px;
+	height: 40px;
+    display: inline-block;
+    text-align: center;
+    margin-left: 6px;
+    border: none;
+    background-color: #382214;
+    font-size: 14px;
+    color: #fff;
+    line-height: 34px;
+    vertical-align: top;
+    text-align-last: center;
+}
+#content .joinWrite #idcheck:hover,
+#mobilecheck:hover,
+#cert_button:hover,
+#content .joinWrite td.memberCols2 select:hover {
+	cursor:pointer;
+	color:gold;
+ }
+
+#content .joinWrite #jumin1, 
+#content .joinWrite #email,
+#content .joinWrite #domain {
+	width:132px;
+}
+#content .joinWrite #jumin2{
+	width:20px;
+}
+#content .joinWrite #bsno1,
+#content .joinWrite #bsno2,
+#content .joinWrite #bsno3,
+#content .joinWrite #mobile1,
+#content .joinWrite #mobile2,
+#content .joinWrite #mobile3 {
+	width:79px;
+}
+
+#content .joinWrite .cert_confirm_row{
+	margin-top:10px;
+}
+
+#content .field_agree{
+	padding-top:30px;
+}
+#content .field_agree h3{
+    color: #ccc;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+#content .reg_agree {
+	padding: 29px 0 21px 29px;
+    border: 1px solid #f3f2f4;
+    background-color: #fff;
+}
+#content .reg_agree .all_check{
+	display: block;
+    overflow: hidden;
+    position: relative;
+    padding: 1px 7px 8px 1px;
+    cursor: pointer;
+}
+#content .reg_agree .check .txt_checkbox{
+	padding-left: 4px;
+    margin-top: -1px;
+    font-size: 16px;
+    font-weight: 700;
+}
+.reg_agree .check_view{
+	position: relative;
+    margin:8px 25px;
+}
+.reg_agree .check_agree{
+	
+}
+#content .reg_agree .check_event{
+	margin:8px 0 0 25px;
+}
+
+.btn_area{
+	text-align:center;
+	padding-bottom: 50px;
+}
+.btn_area input{
+    width: 200px;
+    height: 48px;
+    margin: 40px 5px 0;
+    border: 0 none;
+    font-size: 14px;
+    color: #fff;
+    line-height: 44px;
+    letter-spacing: -0.3px;
+}
+.btn_area input[type=submit],
+.btn_area input[type=reset],
+.btn_area input[type=button]
+{
+	background:#382214;
+	 border: 1px solid #452f22;
+}
+.btn_area input[type=submit]:hover,
+.btn_area input[type=reset]:hover,
+.btn_area input[type=button]:hover
+{
+	color:gold;
+	cursor:pointer;
+	font-weight:700;
+}

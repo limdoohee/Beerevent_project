@@ -1,0 +1,238 @@
+#container{
+	margin:0 auto;
+}
+.page_location {
+    width: 1050px;
+    margin: 0 auto;
+    padding:2% 0 3%;
+    font-size: 12px;
+    color: gold;
+    line-height: 18px;
+    text-align: right;
+    letter-spacing: -0.6px;
+}
+.page_location a, #content ul li a{
+	text-decoration:none;
+	letter-spacing: -1px;
+    font-weight: 700;
+    color:#ccc;
+}
+
+.layout-page-header {
+    text-align: center;
+    padding-bottom: 40px;
+    /* padding-top: 60px; */
+}
+	.layout-page-header h2 {
+	    font-weight: 700;
+	    line-height: 1.5;
+	    font-size: 40px !important;
+	    color: #fff;
+	    display: block;
+	    padding: 10px 0 14px 0;
+	}
+
+.layout-bg {
+    display: table;
+    padding: 50px 0;
+    margin: 2.5% auto;
+    background: rgba(255,255,255,.8);
+    min-width:700px;
+}
+.layout-wrapper {
+    width: 1050px;
+    position: relative;
+    margin: 0 auto;
+    height: 100%;
+}
+.login_wrap {
+    width: 650px;
+    margin: 0 auto;
+    display: table;
+}
+.login_wrap .login {
+    text-align: center;
+}
+	.login .text {
+	    width: 110px;
+	    font-size: 13px;
+	    font-weight: bold;
+	    text-align: left;
+	    padding-left: 5px;
+	}
+	.login ul {
+	    display: inline-block;
+	    vertical-align: middle;
+	    padding-right: 20px;
+	}
+	.login ul li {
+	    clear: both;
+	    height: 45px;
+	    line-height: 45px;
+	}
+	.login ul li span {
+	    color: #000;
+	    font-weight: bold;
+	}
+	.login .input input{
+	   max-width: none;
+ 	   width: 180px;
+ 	   text-indent: 5px;
+	   margin: 0;
+	   border: 1px solid #bfbfbf;
+	   line-height: 38px;
+	   height: 38px;
+	}
+	.login .button input {
+		width: auto;
+	    padding: 20px 20px;
+	    height: 86px;
+	}
+	.login .button input:hover{
+		color:gold;
+		cursor:pointer;
+	}
+
+.login_button {
+    margin-top: 40px;
+    border-top: 1px solid #382214;
+    padding-top: 40px;
+}
+	.login_button ul {
+	    text-align: center;
+	}
+	.login_button li {
+	    display: inline-block;
+	}	
+	.login_button .bhs_button {
+	    background-color: #fff;
+	    border: 1px solid #382214 ;
+	    color: #382214;
+	}
+	
+.bhs_button {
+    width: 150px;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    background-color: #382214;
+    border: none;
+    color: #fff;
+    font-size: 15px;
+    float: right;
+    margin-left: 2px;
+    font-size: 13px;
+}
+
+.id_find_popup, .pass_find_popup{
+	display:none;
+	position:fixed;
+	width:28%;
+	height:400px;
+	border:1px solid #000;
+	top:350px;
+	margin:0 240px;
+	background:#fff;
+	z-index:9999;
+	padding:50px 0;
+}
+.pop h2{
+	text-align:center;
+}
+.pop .find_info{
+	border-top: 1px solid;
+    border-bottom: 1px solid;
+	width: fit-content;
+    margin: 0 auto;
+    padding: 40px;
+}
+.pop .find_info .text{
+	width: 50px;
+    font-size: 13px;
+    font-weight: bold;
+    text-align: left;
+    padding-left: 5px;
+}
+.pop .find_info ul{
+	display: inline-block;
+    vertical-align: middle;
+    height: 90px;
+    padding-right: 20px;
+}
+.pop .find_info .text li{
+	clear: both;
+    height: 45px;
+    line-height: 45px;
+}
+.pop .find_info text li span {
+    color: #000;
+    font-weight: bold;
+}
+.pop .find_info .input input {
+    max-width: none;
+    width: 180px;
+    text-indent: 5px;
+    margin-bottom: 5px;
+    border: 1px solid #bfbfbf;
+    line-height: 38px;
+    height: 38px;
+}
+.pop .button {
+	border:1px solid red;
+	width: 380px;
+    margin: 0 auto;
+}
+.pop .button li{
+	border:1px solid red;
+	width: 46%;
+}
+
+
+.login_select{
+	text-align:center;
+	margin-bottom: 30px;
+}
+.container_radio{
+ 	 position: relative;
+ 	 padding-left: 30px;
+ 	 cursor: pointer;
+	  font-size: 15px;
+	  margin: 0 9px;
+	  -webkit-user-select: none;
+	  -moz-user-select: none;
+	  -ms-user-select: none;
+	  user-select: none;
+}
+.container_radio input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #eee;
+  border-radius: 50%;
+}
+.container_radio:hover input ~ .checkmark {
+  background-color:gold;
+}
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+.container_radio input:checked ~ .checkmark:after {
+  display: block;
+}
+.container_radio .checkmark:after {
+ 	top:5px;
+	left: 5px;
+	width: 9px;
+	height: 9px;
+	border-radius: 50%;
+	background: #382214;
+}

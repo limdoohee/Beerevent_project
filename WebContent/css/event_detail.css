@@ -1,0 +1,97 @@
+.layout-page-header {
+    text-align: center;
+}
+.layout-page-header h3 {
+    font-weight: 700;
+    line-height: 1.5;
+    font-size: 40px !important;
+    color: #fff;
+    display: block;
+    padding: 70px 0 30px;
+}
+	
+#eventdetail{
+		width:65%;
+	background: rgba(255,255,255,.8);
+	 min-width:1024px;
+	 margin: 0 auto;
+	 padding: 20px 0;
+}
+#event1{
+    width: 950px;
+    margin: 30px auto;
+    height: 365px;
+}
+.img{
+    width: 40%;
+    display: inline-block;
+}
+
+.img img{
+    width: 100%;
+    height: 100%;
+}
+
+.e_text{
+    margin-left: 65px;
+    float:right;
+}
+.e_text .event li {
+	margin-bottom: 11px;
+	font-size: 15px;
+}
+.e_text .event li span{
+	    width: 120px;
+    display: inline-block;
+}
+.e_text .event li input {
+	width:300px;
+	padding: 5px;
+	background: transparent;
+    border: none;
+}
+.e_text .event li select {
+	width:314px;
+	padding: 5px 0;
+}
+.e_text .event li #store_detail{
+	font-weight:700;
+}
+.btn_area {
+	text-align:center;
+	margin-top:42px;
+}
+.btn_area input{
+    width: 150px;
+    padding: 13px 0;
+    margin: 0 5px;
+    text-align: center;
+    color: white;
+    position: relative;
+    display: inline-block;
+    background: #382214;
+    border: none;
+    
+}
+.btn_area input:hover{
+	color:gold;
+	cursor:pointer;
+}
+
+
+#review{
+	width: 65%;
+    background: rgba(255,255,255,.8);
+    min-width: 1024px;
+    margin: 30px auto 70px;
+    padding: 20px 0;
+}
+#table{
+    width: 950px;
+    margin: 0 auto;
+}
+
+.review-title {
+	 text-align: center;
+	 padding:20px;
+	 }

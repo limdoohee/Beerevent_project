@@ -1,0 +1,100 @@
+@charset "utf-8";
+
+body {
+	background : skyblue;
+}
+body,ul,li{
+	margin:0;
+	padding:0;
+}
+
+a{
+	text-decoration:none;
+}
+
+li{
+	list-style:none;
+}
+
+#warp{
+	/* position:relative; */
+	width: 100%;
+	height: 100%;
+	min-width: 1024px;
+	margin: 0;
+	padding: 0;
+}
+
+#header {
+	/* display: inline-block;
+	position: relative; */
+	width: 100%;
+}
+
+#header ul{
+	float:right;
+	margin: 20px 0;
+}
+
+#header li{
+	position: relative;
+	float:left;
+	padding: 13px 18px;
+	padding: 3px 3px;
+}
+
+#nav{
+	width: 100%;
+	
+	position:relative;
+	min-width:1050px;
+	display:inline-block;
+	background: #fff;
+	/* position:relative;
+	width: 100%;
+	min-width:1050px;
+	border-top:1px solid #000;
+	border-bottom:1px solid #000;
+	display:inline-block;
+	background: #fff; */
+}
+
+#nav ul{
+	text-align:center;
+	margin:0 auto;
+	display:table;
+	width: 500px;
+} 
+/* 
+#nav li a{
+	float:left;
+    padding:25px 60px;
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+
+
+
+#nav li{
+	float:left;
+	line-height: 30px;  글씨가 가운데로 오도록 설정하기 위해 한줄의 높이를 30px로 설정
+	vertical-align: middle;  세로 정렬을 가운데로 설정(위의 line-height와 같이 설정 필요함)
+
+}
+
+#nav li a{
+	float:left;
+    padding:25px 60px;
+    font-size: 14px;
+    color: #000;
+    line-height: 20px;
+}
+
+고정header
+
+
+media screen
+@media screen and (){
+	
+} */ */

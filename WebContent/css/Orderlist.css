@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+#content{
+	min-width:1024px;
+	width:65%;
+	padding-bottom:23px;
+    margin: 2.5% auto;
+    background: rgba(255,255,255,.8);
+}
+
+h1 {
+	color:#382214;
+	padding-top: 54px;
+	text-align:center;
+}
+
+
+
+img {
+    width: 250px;
+    height: 195px;
+    float: left;
+    margin-left:117px;
+    padding-right:23px;
+}
+
+.event_li input[type=text] {
+	width:36%;
+    height:25px;
+    border:none;
+    background:#f1f1f1; 
+    float:right;
+    margin-right:171px;
+    text-align:center;
+    position:relative;
+    bottom:37px;
+}
+
+.card_li input[type=text],
+.account_li input[type=text], .deposit_li input[type=text]{
+	width:36%;
+    height:25px;
+    border:none;
+    background:#f1f1f1; 
+    float:right;
+    margin-right:400px;
+    text-align:center;
+    position:relative;
+    bottom:44px;
+}
+
+
+.card_li p, .account_li p, .deposit_li p {
+	 margin-left:30px;
+}
+
+#count{
+	border: 1px solid #a7a7a7;
+    margin-top: 59px;
+    margin-left: 15px;
+    width: 989px;
+    height: 115px;
+}
+
+#count p {
+	margin-left:20px;
+}
+#count li{
+	float:left;
+}
+
+
+.event_li {
+	padding-top:2px;
+}
+
+#total{
+	margin: 0 auto;
+    border: 1px solid #a7a7a7;
+    width: 989px;
+    height: 320px;
+    margin-top: 16px;
+}
+
+.btn1{
+  background:#382214;
+    color:white;
+    border:none;
+    cursor:pointer;
+     width:145px;
+    height:50px;
+    font-size:1em;
+    margin-left:42%;
+    margin-top:23px;
+}

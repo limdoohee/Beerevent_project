@@ -1,0 +1,48 @@
+.layout-page-header {
+    text-align: center;
+}
+	.layout-page-header h2 {
+	    font-weight: 700;
+	    line-height: 1.5;
+	    font-size: 40px !important;
+	    color: #fff;
+	    display: block;
+	    padding: 50px;
+	}
+	
+#eventdetail{
+		width:65%;
+	background: rgba(255,255,255,.8);
+	 min-width:1024px;
+	 margin: 0 auto;
+	 padding: 20px 0;
+}
+#event1{
+    width: 950px;
+    margin: 30px auto;
+    height: 365px;
+}
+.img{
+	border: 1px solid #ccc;
+    width: 40%;
+    height: -webkit-fill-available;
+    display: inline-block;
+}
+.e_text{
+    display: inline-table;
+    margin-left: 65px;
+}
+.e_text .event li {
+	margin-bottom: 11px;
+	font-size: 15px;
+}
+.e_text .event li span{
+	    width: 120px;
+    display: inline-block;
+}
+.e_text .event li input {
+	width:300px;
+	padding: 5px;
+	background: transparent;
+    border: none;
+}

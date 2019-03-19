@@ -1,0 +1,76 @@
+@charset "utf-8";
+
+#content{
+	width:65%;
+    padding-bottom: 214px;
+    margin: 2.5% auto;
+    background: rgba(255,255,255,.8);
+    min-width:1024px;
+}
+#key {
+	text-align: center;
+}	
+
+#key h1 {
+	padding: 140px 0;
+	color : #382214;
+}
+
+.box1 {
+	width: 213px;
+	padding: 70px 0;
+	margin:0 50px;
+	text-align: center;
+	color: white;
+	position:relative;
+	display: inline-block;
+	background: #382214;
+}
+.box1:hover{
+	color: gold;
+}
+
+#box2 {
+	margin:0 auto;
+	display: table;
+}
+#box2 li {
+	float: left;
+}
+/* ----- 판매자 회원 관리 ----- */
+#table {
+	margin: 0 auto;
+	border: 1px solid gray;
+	text-align: center;
+}
+#table td {
+	height: 30px;
+	border: 1px solid gray;
+}
+
+ul.tabs {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+ul.tabs li {
+	background: none;
+	color: #222;
+	display: inline-block;
+	padding: 10px 15px;
+	cursor: pointer;
+}
+ul.tabs li.current {
+	background:#ededed;
+}
+
+.tab-content {
+	display: none;
+	background-color:#ededed;
+	padding: 15px;
+}
+
+.tab-content.current {
+	display: inherit;
+}

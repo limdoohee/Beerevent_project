@@ -1,0 +1,15 @@
+$(function(){
+	$("#member").click(function(){
+		if($(this).is(":checked")){
+			$("form").attr("action","login_member.net");
+		} 
+	})
+	$("#seller").click(function(){
+		if($(this).is(":checked")){
+			$("form").attr("action","login_seller.net");
+		} 
+	})
+	$("#join").click(function(){
+		location.href="join_select.net";
+	})
+})

@@ -1,0 +1,72 @@
+.layout-page-header {
+    text-align: center;
+}
+	.layout-page-header h2 {
+	    font-weight: 700;
+	    line-height: 1.5;
+	    font-size: 40px !important;
+	    color: #fff;
+	    display: block;
+	    padding: 70px 0 30px;
+	}
+#list_count{
+    margin: 0 auto;
+    color: #fff;
+    text-align: right;
+    padding: 20px 0;
+    font-size: 15px;
+    width: 65%;
+}
+#layout_bg{
+	width:65%;
+	background: rgba(255,255,255,.8);
+	 min-width:1024px;
+	 margin: 0 auto;
+	 padding: 20px 0;
+}
+/* ----- Å×ÀÌºí ----- */
+table {
+	margin:0 auto;
+	width:1050px;
+	text-align:center;
+	border-collapse: collapse;
+}
+th, td {
+	padding:12px 0;
+}
+td{
+	border-bottom:1px solid #aaa;
+}
+#page_list{
+	border:none;
+}
+button{
+	width:80px;
+	background:#382214;
+	padding: 6px 0px;
+    margin: 0 3px;
+	color:#fff;
+	border:none;
+	font-size:13px;
+}
+#list_none {
+	text-align: center;
+    padding: 200px 0;
+}
+#board_write {
+	text-align: center;
+    padding-bottom: 10px;
+}
+#board_write > td{
+	padding-bottom: 25px;
+}
+#board_write > td a {
+	background: #382214;
+    color: #fff;
+    padding: 5px 20px;
+    font-size: 14px;
+    margin-right:10px;
+}
+#board_write > td select{
+	padding:4px;
+}

@@ -1,0 +1,10 @@
+drop table reply;
+drop table board;
+drop table bookmark;
+drop table payment;
+drop table eventdate;
+drop table event;
+drop table store;
+drop table seller_temp;
+drop table seller;
+drop table member;

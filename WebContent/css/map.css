@@ -1,0 +1,328 @@
+fieldset {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: transparent;
+}
+.store_height_wrap {
+    left: 30px;
+    position: absolute;
+    top: 120px;
+}
+form {
+	display:post;
+}
+.store_height_wrap .store_map_layer {
+    background: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 2px 0px 3px 0px rgba(0, 0, 0, 0.2);
+    left: 20px;
+    position: absolute;
+    top: 20px;
+    width: 300px;
+    z-index: 7;
+}
+	.find_store_wrap {
+	    background: #fff;
+	    border-radius: 3px;
+	    height: 118px;
+	    position: relative;
+	}
+		.find_store_wrap > article {
+		    left: 0;
+		    position: absolute;
+		    top: 58px;
+		    width: 100%;
+		}
+		.find_store_wrap > article > .find_store_cont_header {
+			   height: 60px;
+ 			   position: relative;	
+		}
+		 .find_store_cont_header .store_map_layer_cont {
+		    background: #fff;
+		    display: none;
+		    position: relative;
+		    width: 300px;
+		}
+			.store_map_layer_cont header {	/*퀵검색*/
+			    float: left;
+			    height: 40px;
+			    position: absolute;
+			    top: 0;
+			    width: 50%;
+			    display: table;
+ 				text-align: center;
+   				background: rgba(0,0,0,.9);
+			}
+			.store_map_layer_cont header h3.on {
+			   height: 100%;
+			    width: 100%;
+			    margin: 0;
+			}
+				.store_map_layer_cont header h3.on a {
+					color:#fff;
+					font-size:14px;
+				    width: 100%;
+					padding: 12px 51px;
+				    vertical-align: -webkit-baseline-middle;
+				}
+/* 			.store_map_layer_cont > article {	매장명 또는 주소 검색 */
+/* 			    padding: 38px 0 0 0; */
+/* 			} */
+				.quick_search_input {
+				    background: #382114;
+				    height: 60px;
+				    width: 100%;
+				}
+					.quick_search_inner {
+					    background: #fff;
+					    border: 1px solid #ddd;
+					    border-radius: 3px;
+					    float: left;
+					    height: 38px;
+					    margin: 10px 0 0 10px;
+					    position: relative;
+					    width: 278px;
+					}
+						.quick_search_inner > input {
+						    border: none;
+						    float: left;
+						    height: 100%;
+						    margin-left: 2%;
+						    padding: 0;
+						    width: 96%;
+						}
+						.quick_search_inner a {
+						    background: url(../img/icon_magnifier.png);
+						    display: block;
+						    height: 23px;
+						    overflow: hidden;
+						    position: absolute;
+						    right: 7px;
+						    top: 7px;
+						    text-indent: -20000px;
+						    width: 19px;
+						}
+				.result_num_wrap.myStoreInfo {	/*검색결과*/
+				    line-height: inherit;
+				    height: 22px;
+				    background: brown;
+				    padding: 6px 8px;
+				}
+					.t_006633 {											/*검색결과 개수*/
+					    color: #006633;
+					}
+				.result_list_wrap {								/*검색결과 리스트*/
+				    background: #fff;
+				    position: relative;
+				    width: 100%;
+				}
+					.result_list {
+					    height: 300px;
+					    */width: 100%;
+					    /* border: 1px solid red; */
+					}
+					.result_list .mCSB_inside > .mCSB_container, .result_list2 .mCSB_inside > .mCSB_container, .result_list3 .mCSB_inside > .mCSB_container {
+					    margin-right: 0;
+					}
+					.result_list ul, .result_list2 ul {
+					    margin: 0 auto;
+					    width: 280px;
+					}
+						.result_list ul li, .result_list2 ul li{
+						    border-bottom: 1px solid #ddd;
+						    height: 100px;
+						    position: relative;
+						    width: 270px;
+						}
+						.result_list ul li strong, .result_list2 ul li strong {
+						    color: #444;
+						    float: left;
+						    font-size: 14px;
+						    height: 20px;
+						    line-height: 20px;
+						    margin-top: 8px;
+						    width: 100%;
+						}
+						.result_list ul li p, .result_list2 ul li p {
+						    color: #666;
+						    float: left;
+						    font-size: 12px;
+						    margin-top: 5px;
+						    line-height: 1.4;
+						    width: 80%;
+						}
+						.result_list ul li p > a, .result_list2 ul li p > a {
+						    margin: 0;
+						    padding: 0;
+						    font-size: 100%;
+						    text-decoration: none;
+						    vertical-align: baseline;
+						    color: #666;
+						    background: transparent;
+						    cursor: pointer;
+						}
+						.mCustomScrollBox {
+						    position: relative;
+						    overflow: hidden;
+						    height: 100%;
+						    max-width: 100%;
+						    0% */: ;
+						    outline: none;
+						    direction: ltr;
+						    overflow: overlay;
+						}
+						.mCSB_scrollTools {
+						    position: absolute;
+						    width: 16px;
+						    height: auto;
+						    left: auto;
+						    top: 0;
+						    right: 0;
+						    bottom: 0;
+						}
+						.mCSB_scrollTools .mCSB_draggerContainer {
+						    position: absolute;
+						    top: 0;
+						    left: 0;
+						    bottom: 0;
+						    right: 0;
+						    height: auto;
+						}
+						.mCSB_scrollTools .mCSB_dragger {
+						    cursor: pointer;
+						    width: 100%;
+						    height: 30px;
+						    z-index: 1;
+						}
+						.mCSB_draggerRail {
+						    width: 5px;
+						}
+	.store_map_layer_cont header.loca_search {	/*지역검색*/
+	    float: left;
+	    height: 40px;
+	    position: absolute;
+	    top: 0;
+	    width: 50%;
+	    display: table;
+		text-align: center;
+		background: rgba(0,0,0, .6);
+		left:50%;
+	}
+		.store_map_layer_cont header.loca_search > h3 {
+		   height: 100%;
+		    width: 100%;
+		    margin: 0;
+		}
+			.store_map_layer_cont header.loca_search > h3 > a {
+				color:#fff;
+				font-size:14px;
+			   	padding: 12px 44px;
+			    vertical-align: -webkit-baseline-middle;
+			}
+		.loca_step1 {									/*step1 : 시/도를 선택해주세요*/
+		    height: 387px;		
+		    width: 300px;
+		    background:#fff;
+		}
+			.loca_step1_ttl {								
+			    background: #006633;
+			    color: #fff;
+			    font-size: 14px;
+			    height: 60px;
+			    line-height: 60px;
+			    text-indent: 20px;
+			}
+				.loca_step1_cont, .loca_step2_cont {	/*시/도 리스트*/
+				    border-top: 1px solid #ddd;
+				    float: left;
+				    margin: 10px 0 0 10px;
+				    width: 281px;
+				}
+				.loca_step1_cont ul {
+				    height: 520px;
+				    overflow: hidden;
+				}
+					.loca_step1_cont ul li, .loca_step2_cont ul li {
+					    border-bottom: 1px solid #ddd;
+					    float: left;
+					    height: 40px;
+					    line-height: 40px;
+					    width: 140px;
+					}
+						.loca_step1_cont ul li a, .loca_step2_cont ul li a {
+						    color: #444;
+						    display: block;
+						    font-size: 14px;
+						    height: 100%;
+						    text-indent: 20px;
+						    width: 100%;
+						}
+			
+		.loca_step2 {								/*step2 : 구/군을 선택해주세요*/
+		    display: none;
+		    height: 572px;
+		    width: 300px;
+		}
+			.loca_step2_ttl {
+			    background: #006633;
+			    color: #fff;
+			    font-size: 14px;
+			    height: 60px;
+			    line-height: 60px;
+			    text-indent: 20px;
+			}
+			.result_num_wrap3 {
+			    background: #f4f4f2;
+			    color: #444;
+			    font-size: 14px;
+			    height: 54px;
+			    line-height: 54px;
+			    position: relative;
+			    text-indent: 40px;
+			    width: 100%;
+			}
+				.result_num_wrap3 a.btn_prev {
+				    background: url(../img/store/btn_prev.png);
+				    display: block;
+				    height: 16px;
+				    left: 20px;
+				    overflow: hidden;
+				    position: absolute;
+				    text-indent: -20000px;
+				    top: 18px;
+				    width: 10px;
+				}
+		.loca_step1_cont, .loca_step2_cont {
+		    border-top: 1px solid #ddd;
+		    float: left;
+		    margin: 10px 0 0 10px;
+		    width: 281px;
+		}
+			
+	.find_store_header {										/*매장찾기*/
+	    float: left;
+	    height: 58px;
+	    left: 0;
+	    position: absolute;
+	    top: 0;
+	    width: 100%;
+	    display:table;
+	    text-align:center;
+	    background:gold;
+	}
+	.find_store_header h2.btn_find_store {
+	    height: 100%;
+	    width: 100%;
+	    margin:0;
+	    color:#382114;
+	    padding: 13px 0
+	}
+	.find_store_header h2.btn_find_store a {
+	    width: 100%;
+	    vertical-align:-webkit-baseline-middle;
+	}
+
